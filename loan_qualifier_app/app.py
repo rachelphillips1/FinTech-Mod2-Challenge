@@ -9,6 +9,7 @@ Example:
 import sys
 import fire
 import questionary
+import csv
 from pathlib import Path
 
 from qualifier.utils.fileio import load_csv
@@ -101,6 +102,13 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
 
     return bank_data_filtered
 
+def save_csv(qualifying_loans, path):
+    output_path = Path(path)
+
+    with open(output_path, 'w', newline='') as csvloans:
+        csvwriter = csv.writer(csvloans)
+        for loan in qualifying_loans:
+            csvwriter.writerow(loan)
 
 def save_qualifying_loans(qualifying_loans):
     """Saves the qualifying loans to a CSV file.
@@ -108,8 +116,11 @@ def save_qualifying_loans(qualifying_loans):
     Args:
         qualifying_loans (list of lists): The qualifying bank loans.
     """
-    # @TODO: Complete the usability dialog for savings the CSV Files.
-    # YOUR CODE HERE!
+    if questionary.confirm("Do you want to save your qualifying loans?").ask():
+        path = questionary.text("Enter output file path (.csv):").ask()
+        save_csv(qualifying_loans, path)
+        print("Your qualifying loans have been saved!")
+   
 
 
 def run():
