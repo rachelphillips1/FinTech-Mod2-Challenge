@@ -103,6 +103,13 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
     return bank_data_filtered
 
 def save_csv(qualifying_loans, path):
+    """Save the qualifying loans to a csv file, if the user wishes.
+    
+    Args:
+        qualifying_loans (list): A list of loans for which the user has qualified.
+        path (string): A path where the user wishes to write their csv file of qualifying loans.
+    
+    """
     output_path = Path(path)
 
     with open(output_path, 'w', newline='') as csvloans:
