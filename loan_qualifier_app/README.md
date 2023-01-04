@@ -1,6 +1,6 @@
-# Project Title
+# Loan Qualifier App
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+This application allows a user to determine at which banks, if any, their loan request may qualify based on their credit score, monthly debt, monthly income, desired loan amount, and home value. Any qualifying banks can be saved as a CSV file.
 
 ---
 
