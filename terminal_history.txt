@@ -1,0 +1,98 @@
+   50  pwd
+   51  cd ..
+   52  pwd
+   53  ls
+   54  cd FinTech-Workspace
+   55  cd ~
+   56  pwd
+   57  pwd
+   58  ls
+   59  cd Desktop
+   60  cd FinTech-Workspace
+   61  ls
+   62  conda activate dev
+   63  python --version
+   64  code .
+   65  python hello_python.py
+   66  cd Python_Project
+   67  python hello_python.py
+   68  conda deactivate
+   69  pwd
+   70  cd ..
+   71  ls
+   72  cd Mod1_Challenge
+   73  python loan_analyzer.py
+   74  python loan_analyzer.py
+   75  python loan_analyzer.py
+   76  python loan_analyzer.py
+   77  python loan_analyzer.py
+   78  conda activate dec
+   79  conda activate dev
+   80  pip -V
+   81  pip freeze
+   82  pip install fire
+   83  pip install questionary
+   84  git config --global user.name <your first and last name>
+   85  git config --global user.name RachelPhillips
+   86  git config --global user.email rachelphillips@berkeley.edu
+   87  it config --list
+   88  git config --list
+   89  pwd
+   90  ls
+   91  cd Desktop
+   92  ls
+   93  Cd FinTech-Workspace
+   94  ls
+   95  cd FinTech-Workspace
+   96  ls
+   97  cd Mod2_Challenge
+   98  ls
+   99  cd Starter_Code
+  100  ls
+  101  cd loan_qualifier_app
+  102  ls
+  103  python app.py
+  104  python app.py
+  105  python app.py
+  106  python app.py
+  107  python app.py
+  108  python app.py
+  109  python app.py
+  110  ls
+  111  ..
+  112  .
+  113  ..
+  114  ..
+  115  . .
+  116  .
+  117  cd rachelphillips
+  118  cd ..
+  119  cd ..
+  120  git clone https://github.com/rachelphillips1/FinTech-Mod2-Challenge.git
+  121  git status
+  122  pwd
+  123  ls
+  124  cd FinTech-Mod2-Challenge
+  125  git status
+  126  git add loan_qualifier_app/README.md
+  127  git status
+  128  git commit -m "Updated title section of ReadMe"
+  129  git push
+  130  git push
+  131  git push
+  132  git push
+  133  git push
+  134  git push
+  135  git push
+  136  git push
+  137  git status
+  138  git add loan_qualifier_app/README.md
+  139  git status
+  140  git commit -m "Completed README file"
+  141  git push
+  142  git status
+  143  git add loan_qualifier_app/README.md
+  144  git status
+  145  git commit -m "Fixed problem with Markdown for code snippet"
+  146  git push
+  147  pwd
