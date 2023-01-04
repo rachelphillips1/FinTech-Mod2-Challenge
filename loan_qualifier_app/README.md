@@ -22,10 +22,10 @@ Packages:
 
 Before runningg the application first install the followig dependencies.
 
-'''python
+```python
 pip install fire
 pip install questionary
-'''
+```
 
 ---
 
@@ -33,9 +33,9 @@ pip install questionary
 
 To use the loan qualifier application, simply clone the repository and run the **app.py** file. You will be prompted to enter a path to the latest banking data, and then asked for your financial information.
 
-'''python
+```python
 python app.py
-'''
+```
 
 ---
 
